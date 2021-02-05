@@ -33,6 +33,20 @@ li {
   font-size: 24px;
 }
 
+section.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1000px 1fr;
+  /* min-height: 1000px; */
+  height: auto;
+
+}
+.main >div {
+  border: 3px solid white;
+  /* height: 1000px; */
+  /* grid-row: 1/ span 1; */
+  /* grid-column: 1/ span 1; */
+}
 
 
 
