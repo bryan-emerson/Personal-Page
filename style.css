@@ -1,3 +1,41 @@
+body {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html {
+  background-color: gray;
+}
+
+h1 {
+  margin-left: 200 px;
+  letter-spacing: 2px;
+}
+
+header {
+  /* display: flex; */
+  background-color: black;
+  border-radius: 5px;
+}
+.parent {
+  display: flex;
+  margin-left: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  /* align-items: flex-end; */
+}
+
+li {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
   ...;
