@@ -68,6 +68,7 @@ section.main {
 .boxone {
   background-image: url("img/_DSF1713.jpg");
   background-size: cover;
+  background-position: center center;
   font-size: 150px;
   color: gold;
   font-weight: bold;
@@ -76,16 +77,26 @@ section.main {
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
-  ...;
+@media screen and (min-width: 10px) and (max-width: 576px) {
+  li {
+    font-size: 12px;
+  }
+
+  .boxone {
+    font-size: 48px;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-  ...;
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .boxone {
+    font-size: 75px;
+  }
 }
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-  ...;
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .boxone {
+    font-size: 100px;
+  }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
