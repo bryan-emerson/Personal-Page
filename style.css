@@ -76,29 +76,29 @@ section.main {
 }
 
 .jumps {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 #portfolio {
-  font-size: 48px;
+  font-size: 36px;
   height: auto;
   color: gold;
 }
 
 #about_me {
-  font-size: 48px;
+  font-size: 36px;
   height: auto;
   color: gold;
 }
 
 #resume {
-  font-size: 48px;
+  font-size: 36px;
   height: auto;
   color: gold;
 }
 
 #contact {
-  font-size: 48px;
+  font-size: 36px;
   height: auto;
   color: gold;
 }
@@ -107,7 +107,7 @@ section.main {
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 10px) and (max-width: 576px) {
   li {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .boxone {
@@ -115,7 +115,7 @@ section.main {
   }
 
   .jumps {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 /* Medium devices (tablets, 768px and up) */
